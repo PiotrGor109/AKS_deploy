@@ -1,0 +1,38 @@
+﻿# Terraform - lokalne dane i stan
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Zmienne i sekrety
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+!.env.example
+
+# Klucze i certyfikaty
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+
+# Kubernetes - dane dostpowe
+kubeconfig
+kubeconfig.*
+.kube/
+
+# Docker - dane logowania
+.docker/
+
+# IDE
+.idea/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db

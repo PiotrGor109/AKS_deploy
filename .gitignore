@@ -36,3 +36,8 @@ kubeconfig.*
 # System
 .DS_Store
 Thumbs.db
+*_override.tf
+override.tf
+.azure/
+*secret*.yaml
+*secret*.yml
